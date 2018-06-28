@@ -22,7 +22,7 @@ module.exports = {
         filename: 'bundle.js',
         library: 'ng-module-editor',
         libraryTarget: 'commonjs2',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'lib')
     },
     //plugins: [new UglifyJsPlugin()]
 };

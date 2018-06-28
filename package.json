@@ -2,7 +2,7 @@
   "name": "ng-module-editor",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/bundle.js",
+  "main": "./lib/bundle.js",
   "scripts": {
     "start": "tsc && node ./lib/index.js",
     "build": "webpack --mode production",
