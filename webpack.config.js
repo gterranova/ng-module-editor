@@ -10,7 +10,8 @@ module.exports = {
             {
                 test: /\.tsx?$/,
                 use: 'ts-loader',
-                exclude: /node_modules/
+                // exclude: /node_modules/
+                include: __dirname
             }
         ]
     },
@@ -19,7 +20,7 @@ module.exports = {
     },
     output: {
         filename: 'bundle.js',
-        library: 'ts-modify',
+        library: 'ng-module-editor',
         libraryTarget: 'commonjs2',
         path: path.resolve(__dirname, 'dist')
     },
