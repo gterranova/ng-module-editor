@@ -5,8 +5,7 @@
   "main": "./lib/bundle.js",
   "scripts": {
     "start": "tsc && node ./lib/index.js",
-    "build": "webpack --mode production",
-    "postinstall": "webpack --mode production"
+    "build": "webpack --mode production"
   },
   "author": "Gianpaolo Terranova",
   "license": "MIT",
